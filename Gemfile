@@ -12,6 +12,7 @@ end
 
 group :test do
   gem 'coveralls', :require => false
+  gem 'rack', '1.1.0'
   gem 'json', :platforms => [:jruby, :ruby_18, :ruby_19]
   gem 'mime-types', '~> 1.25', :platforms => [:jruby, :ruby_18]
   gem 'rack-test'
